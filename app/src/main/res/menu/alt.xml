@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/r1"
+        android:title="Ülke" />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/r2"
+
+        android:title="Şehir" />
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/r3"
+        android:title="İlçe" />
+    <item
+        android:id="@+id/item4"
+        android:icon="@drawable/r4"
+        android:title="Mahalle" />
+    <item
+        android:id="@+id/item5"
+        android:icon="@drawable/r5"
+        android:title="Yol" />
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/r6"
+        android:title="No" />
+</menu>

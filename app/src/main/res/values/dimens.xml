@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_padding">16dp</dimen>
+    <dimen name="content_left_margin_wh">8sp</dimen>
+    <dimen name="text_large_pf_text_size">16dp</dimen>
+    <dimen name="text_large_pf_padding_top">32dp</dimen>
+    <dimen name="text_large_margin_top">40dp</dimen>
+    <dimen name="text_large_text_size">16sp</dimen>
+    <dimen name="text_medium_text_size">16sp</dimen>
+    <dimen name="text_detail_title_text_size">20sp</dimen>
+    <dimen name="text_normal_text_size">12sp</dimen>
+    <dimen name="text_subheader_text_size">10sp</dimen>
+    <dimen name="follow_button">13sp</dimen>
+    <dimen name="icon_padding">4dp</dimen>
+    <dimen name="icon_paddingTop">8dp</dimen>
+    <dimen name="detail_padding_top">28dp</dimen>
+    <dimen name="text_subheader_padTop">4dp</dimen>
+    <dimen name="large_image_view_height_width">48dp</dimen>
+    <dimen name="regular_image_view_height_width">40dp</dimen>
+    <dimen name="text_regular_text_size">18sp</dimen>
+    <dimen name="text_small_text_size">8sp</dimen>
+    <dimen name="view_margin">20dp</dimen>
+    <dimen name="line_spacing_details">-8dp</dimen>
+    <dimen name="white_background_padding">20dp</dimen>
+    <dimen name="edittext_margin_top">10dp</dimen>
+    <dimen name="spinner_margin_left">10dp</dimen>
+    <dimen name="card_margin_top">40dp</dimen>
+    <dimen name="between_card_margin_top">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="button_radius">2dp</dimen>
+    <dimen name="button_border">1dp</dimen>
+    <dimen name="button_horizontal_padding">32dp</dimen>
+    <dimen name="button_vertical_padding">12dp</dimen>
+    <dimen name="description_padding_top">12dp</dimen>
+    <dimen name="description_padding_bottom">8dp</dimen>
+    <dimen name="card_bottom_padding">8dp</dimen>
+    <dimen name="button_margin_top">8dp</dimen>
+    <dimen name="topic_header_horizontal_padding">24dp</dimen>
+    <dimen name="arrow_height">4dp</dimen>
+    <dimen name="arrow_width">4dp</dimen>
+    <dimen name="notification_padding_horizontal">56dp</dimen>
+    <dimen name="notification_padding_vertical">56dp</dimen>
+    <dimen name="bubble_padding">8dp</dimen>
+    <dimen name="switch_theme_margin">12dp</dimen>
+    <dimen name="icon_main_padding_right">8dp</dimen>
+    <dimen name="icon_padding_right">12dp</dimen>
+    <dimen name="edittext_padding">8dp</dimen>
+    <dimen name="checkbox_padding">64dp</dimen>
+    <dimen name="question_horizontal_padding">48dp</dimen>
+    <dimen name="question_horizontal_padding_top">16dp</dimen>
+    <dimen name="pf_icon_size">35dp</dimen>
+</resources>

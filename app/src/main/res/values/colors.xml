@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e6bd14</color>
+    <color name="colorPrimaryDark">#300F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <item name="white" type="color">#ffffff</item>
+    <item name="whitelish" type="color">#f7f7f7</item>
+    <color name="list_divider">#d9d9d9</color>
+
+    <color name="title_start_color">#eecf5c</color>
+    <color name="title_end_color">#e6bd1e</color>
+    <color name="toolbar_color">#e6bd14</color>
+
+    <color name="list_row_start_color">#fcf7e7</color>
+    <color name="list_row_end_color">#f7edcb</color>
+    <color name="list_row_hover_start_color">#cfe2f6</color>
+    <color name="list_row_hover_end_color">#d2d2d2  </color>
+    <item name="teal" type="color">#00b5a9</item>
+
+</resources>

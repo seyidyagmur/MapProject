@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstInternApp</string>
+    <string name="title_forgotPassword">Forgotten Pasword</string>
+    <string name="nav_menu1">Menu 1</string>
+    <string name="nav_menu2">Menu 2</string>
+    <string name="nav_menu3">Menu 3</string>
+    <string name="drawer_open">Acildi</string>
+    <string name="drawer_close">Kapandı</string>
+
+</resources>

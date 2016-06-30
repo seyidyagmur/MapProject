@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingTop="5dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    style="@style/page_background_bl"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:weightSum="1">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:id="@+id/listLayout"
+        android:gravity="center"
+       android:background="@drawable/titleshape"
+
+       >
+   <TextView
+       android:id="@+id/tvbaslik"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="24sp"
+       android:text="Ülkeler"
+        />
+
+   </LinearLayout>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit1"
+         android:hint="Ara"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+          android:nextFocusUp="@id/edit1"
+        android:nextFocusLeft="@id/edit1"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:id="@+id/progres1"
+       />
+    <ListView
+        android:id="@+id/list_bolge"
+        android:layout_width="fill_parent"
+        android:layout_height="316dp"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llProgressImages"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_margin="20dp"
+        android:paddingLeft="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_weight="0.11">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_1"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_2"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_3"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_4"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_5"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/pf_icon_size"
+            android:layout_height="@dimen/pf_icon_size"
+            android:id="@+id/img_6"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
